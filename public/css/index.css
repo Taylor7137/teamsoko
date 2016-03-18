@@ -1,0 +1,84 @@
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: Impact, sans-serif;
+}
+
+div#navbar {
+	width: 100%;
+	height: 10%;
+	background-color: black;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.soko-title {
+	color: darkgoldenrod;
+	font-size: 300%;
+	font-family: Impact, sans-serif;
+}
+
+a.soko-title:hover {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+a.img {
+	padding: 0;
+}
+
+.img-thumbnail {
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	width: 50px;
+	padding: 0;
+	margin-top: 4%;
+}
+
+.insta {
+	height: 48px;
+	width: 48px;
+}
+
+a.nav-element {
+	border: 2px solid white;
+	border-radius: 4px;
+	padding: 4px;
+	margin-top: 1.1%;
+	margin-left: 3px;
+	margin-right: 3px;	
+	box-sizing: content-box;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+a.nav-links {
+	color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div.video-container {
+  z-index: -1;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+iframe#opening-video {
+	position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+	margin-top: 5%;
+	border: none;
+}
