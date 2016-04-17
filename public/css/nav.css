@@ -1,0 +1,106 @@
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+/*	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+	font-family: Impact, sans-serif;
+}
+
+div#navbar {
+	margin: 0;
+	width: 100%;
+	height: 12%;
+	background-color: black;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 13;
+	padding-top: 15px;
+}
+
+.soko-title {
+	color: #b48e12;
+	background-image: -webkit-linear-gradient(92deg,#b48e12,#f4d258);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 300%;
+	font-family: Impact, sans-serif;
+}
+
+a.soko-title:hover {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.nav-links {
+
+}
+
+a.img {
+	padding: 0;
+}
+
+.img-thumbnail {
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	width: 50px;
+	padding: 0;
+	margin-top: 2.7%;
+}
+
+.contact-img {
+	margin-top: 0;
+}
+
+.insta {
+	height: 48px;
+	width: 48px;
+}
+
+a.nav-element {
+	/*border: 2px solid white;
+	border-radius: 4px;*/
+	padding: 4px;
+	margin-top: 1.1%;
+	margin-left: 3px;
+	margin-right: 3px;
+	box-sizing: content-box;
+	text-decoration: none;
+	font-size: 160%;
+}
+
+a.nav-links {
+	color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 700px) {
+	.curved-container {
+		margin-left: 12%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 950px) {
+	.curved-container {
+		margin-left: 15%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1100px) {
+	.curved-container {
+		margin-left: 20%;
+	}
+}

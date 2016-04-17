@@ -1,31 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='app'>
 <head>
 	<meta charset="UTF-8">
 	<title>Team Soko</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
 
-	<div id='navbar' class='container-fluid'>
+	<div class='container-fluid'>
+		<div id='navbar' class="row">
+			<div class="col-md-offset-0 col-lg-offset-1 col-sm-offset-0 col-md-4 col-lg-3 col-sm-3 col-xs-12"><a href="/" title="Home Page"class="soko-title"> $oko Y.N.$. </a></div>
+				<a class='nav-links col-md-1 col-sm-1 col-xs-2 text-center nav-element' href="/#events"> Events </a>
+				<a class='nav-links col-md-1 col-sm-1 col-xs-2 text-center nav-element' href="/#sound-cloud-music"> Music </a>
+				<a class='nav-links col-md-1 col-sm-1 col-xs-2 text-center nav-element' href="/videos"> Videos</a>
+				<a class='nav-links col-md-1 col-sm-1 col-xs-2 text-center nav-element' href="/#contacts"> Contact </a>
+
+			<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+				<a class='img text-center' target="_blank" href="https://www.facebook.com/SokoMrp"><img class='img-thumbnail img-responsive' src="images/facebookIcon.png" alt="facebook"></a>
+				<a class='img text-center' target="_blank" href="https://twitter.com/teamsoko352"><img class='img-thumbnail img-repsponsive' src="images/twitterIcon.png" alt="twitter"></a>
+				<a class='img text-center' target="_blank" href="https://www.instagram.com/teamsoko/"><img class='img-thumbnail img-responsive insta' src="images/instagramIcon.png" alt="instagram"></a>
+			</div>
+		</div>
 		<div class="row">
-			<div class="col-md-offset-1 col-md-4"><a href="/" class="soko-title"> $oko Y.N.$. </a></div>	
-			<a class='nav-links col-md-1 text-center nav-element' href="/"> Events </a>
-			<a class='nav-links col-md-1 text-center nav-element' href="/"> Music </a>
-			<a class='nav-links col-md-1 text-center nav-element' href="/"> Videos</a>
-			<a class='nav-links col-md-1 text-center nav-element' href="/"> Contact </a>
-			<div class="col-md-2 text-center">
-				<a class='img text-center'href="/"><img class='img-thumbnail img-responsive' src="images/facebookIcon.png" alt="facebook"></a>
-				<a class='img text-center'href="/"><img class='img-thumbnail img-repsponsive' src="images/twitterIcon.png" alt="twitter"></a>
-				<a class='img text-center'href="/"><img class='img-thumbnail img-responsive insta' src="images/instagramIcon.png" alt="instagram">	
-			</div>	
+			<div class="video-container">
+				<iframe id='opening-video' height='711px' width='1264' src="https://www.youtube.com/embed/8vfxruAY3Mw?autoplay=1&loop=1&playlist=8vfxruAY3Mw" loop='1' frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
-	
-	<div class="video-container">
-		<iframe id='opening-video' src="https://www.youtube.com/embed/8vfxruAY3Mw" frameborder="0" allowfullscreen></iframe>
+
+
+
+	<div id="soko-title-under-video" class="text-center">
+		<h1 class="soko-htag">$OKO YNS</h1>
+		<p>$oko is a talented artist from Gainesville Florida. He is the founder and lead rapper of YNS records.</p>
+	</div>
+
+	<a name='events'></a>
+	<div class="events text-center">
+		<h1 id='event-title'>$OKO YNS EVENTS</h1>
+
+		<h3 class='upcoming-events'>Upcoming Events</h2>
+		<ul>
+			<li class="event-li">Event 1: May 5th Jacksonville | Night Club</li>
+			<li class="event-li">Event 2: May 9th Miami | The Landings</li>
+			<li class="event-li">Event 3: May 23rd Tampa | The Get Down</li>
+		</ul>
+		<hr>
+		<h2 class='book-show'>Want to Book A Show?</h2>
+		<p>If you are interested in booking $oko for an event please contact us at sokoyns@gmail.com</p>
+		<br>
+
+	</div>
+
+		<a name='sound-cloud-music'></a>
+	<div class="sound-cloud-music container">
+		<div class="row text-center">
+			<h1 id='music-title'>Music</h1>
+			<hr class="hr">
+			<h3>Mixtap 1</h2>
+			<ul>
+				<li class='song-li' ><a class="song" target="_blank" href="https://soundcloud.com/teamsoko/kickin-flava">Kickin Flava ft.300Rez & DK Guwop (Prod. by T-roy on da track)</a></li>
+				<li class='song-li' ><a class="song" target="_blank" href="https://soundcloud.com/teamsoko/im-workin">I'm Workin( Prod. by War Productions)</a></li>
+				<li class='song-li' ><a class="song" target="_blank" href="https://soundcloud.com/teamsoko/michael-jackson">MICHAEL JACKSON</a></li>
+				<li class='song-li' ><a class="song" href="">Song 4</a></li>
+				<li class='song-li' ><a class="song" href="">Song 5</a></li>
+			</ul>
+			<h3>Mixtap 2</h2>
+			<ul>
+				<li class='song-li' ><a class="song" href="">Song 1</a></li>
+				<li class='song-li' ><a class="song" href="">Song 2</a></li>
+				<li class='song-li' ><a class="song" href="">Song 3</a></li>
+				<li class='song-li' ><a class="song" href="">Song 4</a></li>
+				<li class='song-li' ><a class="song" href="">Song 5</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<a name='contacts'></a>
+	<div class="contacts text-center">
+		<h1 id='contact-title'>Contacts</h1>
+		<br>
+		<p>Email: sokoyns@gmail.com</p>
+		<p>Phone: 352-999-9999</p>
+		<div class='text-center'>
+			<a class='img text-center' target="_blank" href="https://www.facebook.com/SokoMrp"><img class='img-thumbnail contact-img img-responsive' src="images/facebookIcon.png" alt="facebook"></a>
+				<a class='img text-center' target="_blank" href="https://twitter.com/teamsoko352"><img class='img-thumbnail contact-img img-repsponsive' src="images/twitterIcon.png" alt="twitter"></a>
+			<a class='img text-center' target="_blank" href="https://www.instagram.com/teamsoko/"><img class='img-thumbnail contact-img img-responsive insta' src="images/instagramIcon.png" alt="instagram"></a>
+		</div>
+	</div>
+<!--
+	<div id="email-list" ng-controller='emailListController'>
+		<form ng-submit='saveEmail()'>
+    		<div class="form-group text-center">
+    			<input type="text" class='form-control' ng-model=fan.name id='nameInput' placeholder='Please enter your email'>
+				<input type="text" class='form-control' ng-model=fan.email id='emailInput' placeholder='Please enter your name'>
+				<button id='save' type="submit" class="btn btn-primary">Save</button>
+-->
+	 		</div>
+   	</form>
 	</div>
 </body>
 </html>

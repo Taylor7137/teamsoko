@@ -1,0 +1,26 @@
+#beginning-of-videos {
+	margin-top: 10%;
+}
+
+h1 {
+	color: #d4af37;
+}
+
+.title-of-video-page {
+	width: 100%;
+	text-align: center;;
+	color: 	#a48623;
+   background-image: -webkit-linear-gradient(92deg,#a48623,#f4d258);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.video-container {
+	margin-bottom: 50px;
+}
+
+hr {
+	border-color: red;
+	background-color: red;
+	color: red;
+}
